@@ -24,39 +24,36 @@
 ## Packages
 
 <div id="@snickbit/quasar">
-	<h3>
-		<a href="https://github.com/snickbit/quasar/tree/main/packages/quasar-components">
-			@snickbit/quasar
-		</a>
-	</h3>
+    <h3>
+        <a href="https://github.com/snickbit/quasar-plugins/tree/main/packages/quasar-components">
+            @snickbit/quasar
+        </a>
+    </h3>
 </div>
 
 My custom Quasar components. Use with caution.
 
 
-
 <div id="@snickbit/quasar-forms">
-	<h3>
-		<a href="https://github.com/snickbit/quasar/tree/main/packages/quasar-forms">
-			@snickbit/quasar-forms
-		</a>
-	</h3>
+    <h3>
+        <a href="https://github.com/snickbit/quasar-plugins/tree/main/packages/quasar-forms">
+            @snickbit/quasar-forms
+        </a>
+    </h3>
 </div>
 
 Quasar form generation using [@snickbit/minia](https://github.com/snickbit/minia)
 
 
-
 <div id="@snickbit/quasar-menu">
-	<h3>
-		<a href="https://github.com/snickbit/quasar/tree/main/packages/quasar-menu">
-			@snickbit/quasar-menu
-		</a>
-	</h3>
+    <h3>
+        <a href="https://github.com/snickbit/quasar-plugins/tree/main/packages/quasar-menu">
+            @snickbit/quasar-menu
+        </a>
+    </h3>
 </div>
 
 Quasar sidebar menu generation using [@snickbit/minia](https://github.com/snickbit/minia)
-
 
 <!--END_SECTION:readmes-packages-->
 
