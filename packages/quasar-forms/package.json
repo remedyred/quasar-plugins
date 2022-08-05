@@ -33,7 +33,7 @@
 		"@quasar/vite-plugin": "^1.0.10",
 		"@snickbit/indexer": "^2.5.5",
 		"@vitejs/plugin-vue": "^2.3.3",
-		"sass": "1.53.0",
+		"sass": "1.54.3",
 		"shx": "^0.3.4",
 		"vite": "3.0.4"
 	}
