@@ -62,9 +62,9 @@
 </template>
 <script setup>
 import {count, isEmpty, isString, objectFilter} from '@snickbit/utilities'
+import SInput from 'src/components/SInput'
 import {computed, ref} from 'vue'
 import {useForm} from '../composables/forms'
-import SInput from 'src/components/SInput'
 
 const $props = defineProps({
 	name: {
@@ -89,7 +89,7 @@ const loading = ref(false)
 const disabled = ref(false)
 const error = ref('')
 
-let $form = useForm($props.name)
+const $form = useForm($props.name)
 const fieldsFilled = computed(() => $form && count(objectFilter($form.fields, field => !isEmpty(field.value))))
 const actionButtonClasses = computed(() => ({col: [$props.submit, $props.reset, $props.cancel].filter(v => v !== false).length > 1}))
 

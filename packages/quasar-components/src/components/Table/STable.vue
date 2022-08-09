@@ -168,7 +168,7 @@ interface Props {
 	selection: 'multiple' | 'none' | 'single'
 }
 
-let {table = {...defaultTableOptions}, disableSearch, topRightStacked, rowKey = '_id', selection = 'none', grid} = defineProps<Props>()
+const {table = {...defaultTableOptions}, disableSearch, topRightStacked, rowKey = '_id', selection = 'none', grid} = defineProps<Props>()
 watch(() => table, newTable => {
 	Object.assign($table, newTable)
 	parseGridOptions()
@@ -179,7 +179,7 @@ const $table: STable = reactive(Object.assign(defaultTableOptions, table))
 
 const tableColumns = computed(() => {
 	const table_columns = $table.columns.slice()
-	for (let column of table_columns) {
+	for (const column of table_columns) {
 		if (column.sortable && !column.name) {
 			column.name = typeof column.field === 'string' ? column.field : column.label
 		}
@@ -203,7 +203,7 @@ function onRequest(scope) {
 }
 
 function tableStyles() {
-	let styles = {}
+	const styles = {}
 
 	let base = 100
 

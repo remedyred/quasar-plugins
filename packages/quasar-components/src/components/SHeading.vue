@@ -29,7 +29,7 @@ setClasses(size)
 watch(() => size, setClasses)
 
 function setClasses(val: string) {
-	let cls = [`text-${val}`]
+	const cls = [`text-${val}`]
 
 	if (center) {
 		cls.push('text-center')
