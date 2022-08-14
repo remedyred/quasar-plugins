@@ -26,7 +26,7 @@
 	"devDependencies": {
 		"@lerna-lite/cli": "^1.6.0",
 		"@snickbit/readmes": "^0.0.2",
-		"@snickbit/eslint-config": "^0.0.7",
+		"@snickbit/eslint-config": "^0.0.10",
 		"@types/jest": "^27.5.2",
 		"depcheck": "^1.4.3",
 		"esbuild": "0.15.2",
