@@ -64,14 +64,14 @@ importers:
       vite: 3.0.4
       vite-dts: ^1.0.4
       vue: ^3.2.37
-      vue-currency-input: ^2.5.1
+      vue-currency-input: ^3.0.0
       vue-router: ^4.0.16
     dependencies:
       '@quasar/extras': 1.15.1
       '@snickbit/utilities': 3.2.1
       quasar: 2.7.7
       vue: 3.2.37
-      vue-currency-input: 2.5.1_vue@3.2.37
+      vue-currency-input: 3.0.0_vue@3.2.37
       vue-router: 4.1.3_vue@3.2.37
     devDependencies:
       '@quasar/vite-plugin': 1.1.1_7inu4tmu34zjajp6fns63xh3nm
@@ -6469,30 +6469,10 @@ packages:
     resolution: {integrity: sha512-EcswR2S8bpR7fD0YPeS7r2xXExrScVMxg4MedACaWHEtx9ftCF/qHG1xGkolzTPcEmjTavCQgbVzHUIdTMzFGA==}
     dev: true
 
-  /vue-currency-input/2.5.1_vue@3.2.37:
-    resolution: {integrity: sha512-H3n+dJPuVC3xsZMCKLk6S7BrmhC1l1UFOnCwHuvprpI2xoYS7mN5FVZQY7REqX4Ct9KdzIz5RAfNOwEIp0cniA==}
+  /vue-currency-input/3.0.0_vue@3.2.37:
+    resolution: {integrity: sha512-af1RYIdK+GrcoJRgmKThrheRL0quW8TV3d0LeyzN39vQQi5xRrx3AhqPtcxM+moW/4G71Q1UoxjRu+wtK465mQ==}
     peerDependencies:
-      '@vue/composition-api': ^1.4.0
-      vue: ^2.6 || ^3.0.0
-    peerDependenciesMeta:
-      '@vue/composition-api':
-        optional: true
-    dependencies:
-      vue: 3.2.37
-      vue-demi: 0.12.5_vue@3.2.37
-    dev: false
-
-  /vue-demi/0.12.5_vue@3.2.37:
-    resolution: {integrity: sha512-BREuTgTYlUr0zw0EZn3hnhC3I6gPWv+Kwh4MCih6QcAeaTlaIX0DwOVN0wHej7hSvDPecz4jygy/idsgKfW58Q==}
-    engines: {node: '>=12'}
-    hasBin: true
-    requiresBuild: true
-    peerDependencies:
-      '@vue/composition-api': ^1.0.0-rc.1
-      vue: ^3.0.0-0 || ^2.6.0
-    peerDependenciesMeta:
-      '@vue/composition-api':
-        optional: true
+      vue: ^2.7 || ^3.0.0
     dependencies:
       vue: 3.2.37
     dev: false
