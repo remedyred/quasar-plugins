@@ -40,29 +40,29 @@ importers:
       jest: 28.1.3
       shx: 0.3.4
       sort-package-json: 1.57.0
-      ts-jest: 28.0.7_3oresl6v6rwmg6j6onwxoybqba
+      ts-jest: 28.0.7_orpm3v45x2zaxljoaw6qmzhtwi
       turbo: 1.4.2
       typescript: 4.7.4
 
   packages/quasar-components:
     specifiers:
       '@quasar/extras': ^1.14.1
-      '@quasar/vite-plugin': ^1.0.10
-      '@snickbit/indexer': ^2.5.5
-      '@snickbit/node-cli': ^3.0.4
-      '@snickbit/out': ^2.0.37
+      '@quasar/vite-plugin': 1.1.1
+      '@snickbit/indexer': 2.5.7
+      '@snickbit/node-cli': 3.0.4
+      '@snickbit/out': 2.0.37
       '@snickbit/utilities': ^3.2.0
-      '@vitejs/plugin-vue': ^2.3.3
-      bundle-scss: ^1.5.1
-      chokidar: ^3.5.3
-      concurrently: ^7.2.2
+      '@vitejs/plugin-vue': 2.3.3
+      bundle-scss: 1.5.1
+      chokidar: 3.5.3
+      concurrently: 7.3.0
       quasar: ^2.7.3
-      rollup: ^2.75.7
-      sass: ^1.53.0
-      shx: ^0.3.4
-      typescript: ^4.7.4
-      vite: ^2.9.12
-      vite-dts: ^1.0.4
+      rollup: 2.77.2
+      sass: 1.54.3
+      shx: 0.3.4
+      typescript: 4.7.4
+      vite: 2.9.14
+      vite-dts: 1.0.4
       vue: ^3.2.37
       vue-currency-input: ^2.5.1
       vue-router: ^4.0.16
@@ -83,23 +83,23 @@ importers:
       chokidar: 3.5.3
       concurrently: 7.3.0
       rollup: 2.77.2
-      sass: 1.54.0
+      sass: 1.54.3
       shx: 0.3.4
       typescript: 4.7.4
-      vite: 2.9.14_sass@1.54.0
+      vite: 2.9.14_sass@1.54.3
       vite-dts: 1.0.4_vite@2.9.14
 
   packages/quasar-forms:
     specifiers:
-      '@quasar/vite-plugin': ^1.0.10
-      '@snickbit/indexer': ^2.5.5
+      '@quasar/vite-plugin': 1.1.1
+      '@snickbit/indexer': 2.5.7
       '@snickbit/minia': ^0.0.31
       '@snickbit/utilities': ^3.2.0
-      '@vitejs/plugin-vue': ^2.3.3
+      '@vitejs/plugin-vue': 2.3.3
       quasar: ^2.7.3
       sass: 1.53.0
-      shx: ^0.3.4
-      vite: ^2.9.12
+      shx: 0.3.4
+      vite: 2.9.14
       vue: ^3.2.37
       vue-router: ^4.0.16
     dependencies:
@@ -118,15 +118,15 @@ importers:
 
   packages/quasar-menu:
     specifiers:
-      '@quasar/vite-plugin': ^1.0.10
-      '@snickbit/indexer': ^2.5.5
+      '@quasar/vite-plugin': 1.1.1
+      '@snickbit/indexer': 2.5.7
       '@snickbit/minia': ^0.0.31
       '@snickbit/utilities': ^3.2.0
-      '@vitejs/plugin-vue': ^2.3.3
+      '@vitejs/plugin-vue': 2.3.3
       quasar: ^2.7.3
-      sass: ^1.53.0
-      shx: ^0.3.4
-      vite: ^2.9.12
+      sass: 1.54.3
+      shx: 0.3.4
+      vite: 2.9.14
       vue: ^3.2.37
       vue-router: ^4.0.16
     dependencies:
@@ -139,9 +139,9 @@ importers:
       '@quasar/vite-plugin': 1.1.1_mzrgi4updpu5ar66zvopkhm24i
       '@snickbit/indexer': 2.5.7
       '@vitejs/plugin-vue': 2.3.3_vite@2.9.14+vue@3.2.37
-      sass: 1.54.0
+      sass: 1.54.3
       shx: 0.3.4
-      vite: 2.9.14_sass@1.54.0
+      vite: 2.9.14_sass@1.54.3
 
 packages:
 
@@ -1204,7 +1204,7 @@ packages:
       vue: ^3.0.0
     dependencies:
       quasar: 2.7.7
-      vite: 2.9.14_sass@1.54.0
+      vite: 2.9.14_sass@1.54.3
       vue: 3.2.37
     dev: true
 
@@ -1233,7 +1233,7 @@ packages:
     resolution: {integrity: sha512-hP/kU0+g9hRuvv1dtPEpq6qdtd0rxdLFLj/GZ6f8PqxqFTdxj4OeWtFn64Xlr1scsAQz9PYFCmf4hZ6tO+fGrw==}
     engines: {node: '>= 12'}
     dependencies:
-      '@snickbit/utilities': 3.2.0
+      '@snickbit/utilities': 3.2.1
     dev: true
 
   /@snickbit/indexer/2.5.7:
@@ -1280,7 +1280,7 @@ packages:
     dependencies:
       '@snickbit/node-utilities': 4.4.2
       '@snickbit/out': 2.0.37
-      '@snickbit/utilities': 3.2.0
+      '@snickbit/utilities': 3.2.1
       lilconfig: 2.0.6
       yargs-parser: 21.0.1
     dev: true
@@ -1305,7 +1305,7 @@ packages:
     dependencies:
       '@snickbit/ansi': 0.0.10
       '@snickbit/cycle': 0.0.29
-      '@snickbit/utilities': 3.2.0
+      '@snickbit/utilities': 3.2.1
       ansi-styles-template: 1.0.0
       browser-or-node: 2.0.0
       node-inspect-extracted: 1.1.0
@@ -1334,15 +1334,6 @@ packages:
   /@snickbit/upwords/2.0.21:
     resolution: {integrity: sha512-euKyZMt/rp0AoE/CIYRjMyYKj5vzq8Ij1JNJIl+7+T87RqvCrhbMZA/c8VrnLEPRCRttMtYLoChigQcYqZvNyw==}
     engines: {node: '>= 12'}
-    dev: true
-
-  /@snickbit/utilities/3.2.0:
-    resolution: {integrity: sha512-eko5xA6B4AZaT/6SlXiOa1uqWrhmWmal4sZUD44VYjPQu7T2OjPYKRPrfWlGMPxuRdLtny5n/KYeXIIStyrwxg==}
-    engines: {node: '>= 12'}
-    dependencies:
-      '@snickbit/plural': 0.0.3
-      just-camel-case: 6.0.1
-      nanoid: 3.3.4
     dev: true
 
   /@snickbit/utilities/3.2.1:
@@ -1605,7 +1596,7 @@ packages:
       vite: ^2.5.10
       vue: ^3.2.25
     dependencies:
-      vite: 2.9.14_sass@1.54.0
+      vite: 2.9.14_sass@1.54.3
       vue: 3.2.37
     dev: true
 
@@ -2371,8 +2362,8 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
-      is-text-path: 1.0.1
       JSONStream: 1.3.5
+      is-text-path: 1.0.1
       lodash: 4.17.21
       meow: 8.1.2
       split2: 3.2.2
@@ -5603,6 +5594,16 @@ packages:
       source-map-js: 1.0.2
     dev: true
 
+  /sass/1.54.3:
+    resolution: {integrity: sha512-fLodey5Qd41Pxp/Tk7Al97sViYwF/TazRc5t6E65O7JOk4XF8pzwIW7CvCxYVOfJFFI/1x5+elDyBIixrp+zrw==}
+    engines: {node: '>=12.0.0'}
+    hasBin: true
+    dependencies:
+      chokidar: 3.5.3
+      immutable: 4.1.0
+      source-map-js: 1.0.2
+    dev: true
+
   /scss-parser/1.0.5:
     resolution: {integrity: sha512-RZOtvCmCnwkDo7kdcYBi807Y5EoTIxJ34AgEgJNDmOH1jl0/xG0FyYZFbH6Ga3Iwu7q8LSdxJ4C5UkzNXjQxKQ==}
     engines: {node: '>=6.0.0'}
@@ -6035,7 +6036,7 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /ts-jest/28.0.7_3oresl6v6rwmg6j6onwxoybqba:
+  /ts-jest/28.0.7_orpm3v45x2zaxljoaw6qmzhtwi:
     resolution: {integrity: sha512-wWXCSmTwBVmdvWrOpYhal79bDpioDy4rTT+0vyUnE3ZzM7LOAAGG9NXwzkEL/a516rQEgnMmS/WKP9jBPCVJyA==}
     engines: {node: ^12.13.0 || ^14.15.0 || ^16.10.0 || >=17.0.0}
     hasBin: true
@@ -6056,6 +6057,7 @@ packages:
       esbuild:
         optional: true
     dependencies:
+      '@babel/core': 7.18.10
       bs-logger: 0.2.6
       esbuild: 0.14.51
       fast-json-stable-stringify: 2.1.0
@@ -6372,7 +6374,7 @@ packages:
       vite: '>2.0.0-0'
     dependencies:
       load-json-file: 6.2.0
-      vite: 2.9.14_sass@1.54.0
+      vite: 2.9.14_sass@1.54.3
     dev: true
 
   /vite/2.9.14_sass@1.53.0:
@@ -6400,7 +6402,7 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vite/2.9.14_sass@1.54.0:
+  /vite/2.9.14_sass@1.54.3:
     resolution: {integrity: sha512-P/UCjSpSMcE54r4mPak55hWAZPlyfS369svib/gpmz8/01L822lMPOJ/RYW6tLCe1RPvMvOsJ17erf55bKp4Hw==}
     engines: {node: '>=12.2.0'}
     hasBin: true
@@ -6420,7 +6422,7 @@ packages:
       postcss: 8.4.14
       resolve: 1.22.1
       rollup: 2.77.2
-      sass: 1.54.0
+      sass: 1.54.3
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
