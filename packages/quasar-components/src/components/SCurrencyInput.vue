@@ -10,7 +10,7 @@
 	</q-input>
 </template>
 <script lang="ts" setup>
-import {CurrencyDisplay, CurrencyInputOptions, parse, useCurrencyInput} from 'vue-currency-input'
+import {CurrencyDisplay, CurrencyInputOptions, useCurrencyInput} from 'vue-currency-input'
 import {ref, watch} from 'vue'
 
 export interface SCurrencyInputOptions extends Omit<CurrencyInputOptions, 'currencyDisplay'> {
@@ -37,21 +37,20 @@ const defaultCurrency: CurrencyInputOptions = {
 	hideGroupingSeparatorOnFocus: false,
 	hideNegligibleDecimalDigitsOnFocus: false,
 	autoDecimalDigits: true,
-	autoSign: true,
 	useGrouping: true,
 	accountingSign: false
 }
 
 const currencyOptions = ref<CurrencyInputOptions>({...defaultCurrency, ...options} as CurrencyInputOptions)
 
-const {inputRef, setOptions} = useCurrencyInput(currencyOptions.value)
+const {inputRef, setOptions, numberValue} = useCurrencyInput(currencyOptions.value)
 watch(() => options, () => {
 	setOptions({...defaultCurrency, ...options} as CurrencyInputOptions)
 }, {deep: true})
 
-const maskedValue = ref(parse(String(modelValue), currencyOptions.value))
+const maskedValue = ref(numberValue)
 function updateModelValue(val: any) {
-	$emits('update:model-value', parse(String(val), currencyOptions.value))
+	$emits('update:model-value', numberValue, currencyOptions.value)
 }
 </script>
 <style lang="scss" scoped></style>
