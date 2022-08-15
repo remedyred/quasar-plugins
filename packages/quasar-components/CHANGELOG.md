@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.29](https://github.com/snickbit/quasar-plugins/compare/@snickbit/quasar@0.2.28...@snickbit/quasar@0.2.29) (2022-08-15)
+
+### Bug Fixes
+
+* add ts-expect-error for unaugmentation redeclare ([4be7e12](https://github.com/snickbit/quasar-plugins/commit/4be7e120b5e97e5fd43448a6acff9b39a6a0f59f))
+* export umd instead of cjs ([a585cae](https://github.com/snickbit/quasar-plugins/commit/a585caef3e74b6979e9d1e11819c867656c01c9f))
+* simplify component registration ([e38b290](https://github.com/snickbit/quasar-plugins/commit/e38b2907a364f2a065c4f71eacfb46b26b7af63d))
+
 ## [0.2.28](https://github.com/snickbit/quasar-plugins/compare/@snickbit/quasar@0.2.27...@snickbit/quasar@0.2.28) (2022-08-15)
 
 ### Bug Fixes
