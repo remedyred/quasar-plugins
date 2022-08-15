@@ -62,9 +62,9 @@
 </template>
 <script setup>
 import {count, isEmpty, isString, objectFilter} from '@snickbit/utilities'
-import SInput from 'src/components/SInput'
 import {computed, ref} from 'vue'
 import {useForm} from '../composables/forms'
+import SInput from 'src/components/SInput'
 
 const $props = defineProps({
 	name: {
