@@ -48,7 +48,7 @@
 		"@snickbit/indexer": "^2.5.5",
 		"@snickbit/node-cli": "^3.0.4",
 		"@snickbit/out": "^2.0.37",
-		"@vitejs/plugin-vue": "3.0.1",
+		"@vitejs/plugin-vue": "3.0.3",
 		"bundle-scss": "^1.5.1",
 		"chokidar": "^3.5.3",
 		"concurrently": "^7.2.2",
