@@ -6,7 +6,7 @@
 	"exports": {
 		".": {
 			"import": "./dist/snickbit-quasar.es.js",
-			"require": "./dist/snickbit-quasar.cjs.js"
+			"require": "./dist/snickbit-quasar.umd.js"
 		},
 		"./dist/snickbit-quasar.css": {
 			"import": "./dist/snickbit-quasar.css",
