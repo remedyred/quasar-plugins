@@ -1,5 +1,7 @@
 import {App} from 'vue'
-import packageJson from '../package.json'
+import {version} from '../package.json'
+import {kebabCase} from '@snickbit/utilities'
+import * as components from './ui'
 
 type ComponentType = any
 
@@ -8,7 +10,7 @@ export interface PluginInstance {
 	install(app: App): void
 }
 
-export default function(components?: ComponentType[]): PluginInstance {
+export default function(): PluginInstance {
 	const installTargets: App[] = []
 
 	function registerComponent(app: App, name: string, component: ComponentType): void {
@@ -27,20 +29,19 @@ export default function(components?: ComponentType[]): PluginInstance {
 		installTargets.push(app)
 
 		if (components) {
-			for (const component of components) {
-				const {name, alias} = component
+			for (const name of Object.keys(components)) {
+				const component = components[name]
+				const alias = kebabCase(name)
 				registerComponent(app, name, component)
 				if (alias) {
-					for (const aliasName of alias) {
-						registerComponent(app, aliasName, component)
-					}
+					registerComponent(app, alias, component)
 				}
 			}
 		}
 	}
 
 	return {
-		version: packageJson.version,
+		version,
 		install
 	}
 }
