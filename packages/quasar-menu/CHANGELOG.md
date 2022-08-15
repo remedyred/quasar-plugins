@@ -1,3 +1,15 @@
+# Change Log
+
+All notable changes to this project will be documented in this file.
+See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+## [0.1.15](https://github.com/snickbit/quasar-plugins/compare/@snickbit/quasar-menu@0.1.14...@snickbit/quasar-menu@0.1.15) (2022-08-15)
+
+### Bug Fixes
+
+* build dts with vite-plugin-dts ([f48710a](https://github.com/snickbit/quasar-plugins/commit/f48710ab5ec448322a7f54b13416bfb7ac50716b))
+* **deps:** update @vitejs/plugin-vue to v3 ([aa776c4](https://github.com/snickbit/quasar-plugins/commit/aa776c4f4b75e5f53eec1c0b8c7aced8848efb70))
+
 # @snickbit/quasar-menu Changelog
 
 ## 0.1.12
@@ -84,4 +96,3 @@
 ### Patch Changes
 
 - [2fe6119](https://github.com/snickbit/quasar/commit/2fe6119) **docs**:  update
-

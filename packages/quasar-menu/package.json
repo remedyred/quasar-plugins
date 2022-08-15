@@ -1,6 +1,6 @@
 {
 	"name": "@snickbit/quasar-menu",
-	"version": "0.1.14",
+	"version": "0.1.15",
 	"description": "Quasar sidebar menu generation using @snickbit/minia",
 	"license": "MIT",
 	"exports": {

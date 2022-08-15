@@ -1,3 +1,16 @@
+# Change Log
+
+All notable changes to this project will be documented in this file.
+See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+## [0.2.28](https://github.com/snickbit/quasar-plugins/compare/@snickbit/quasar@0.2.27...@snickbit/quasar@0.2.28) (2022-08-15)
+
+### Bug Fixes
+
+* build dts with vite-plugin-dts ([#17](https://github.com/snickbit/quasar-plugins/issues/17)) ([507bbc0](https://github.com/snickbit/quasar-plugins/commit/507bbc00980d54564c619f919a9bb1203d1ae577))
+* **currency-input:** make compatible with vue-currency-input@3.0.0 ([fac7e4c](https://github.com/snickbit/quasar-plugins/commit/fac7e4cdaff2a2a0052493ed6fd4397210548c52))
+* **deps:** update dependency vue-currency-input to v3 ([#8](https://github.com/snickbit/quasar-plugins/issues/8)) ([ad1179c](https://github.com/snickbit/quasar-plugins/commit/ad1179c297af44de178050c94d796ea8ba6f13c2))
+
 # @snickbit/quasar Changelog
 
 ## 0.2.17
@@ -149,4 +162,3 @@
 
 - [2fe6119](https://github.com/snickbit/quasar/commit/2fe6119) **docs**:  update
 - [11a521a](https://github.com/snickbit/quasar/commit/11a521a) **feat**(quasar):  adjust "display" typography styles
-
