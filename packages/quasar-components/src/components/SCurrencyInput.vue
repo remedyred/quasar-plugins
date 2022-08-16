@@ -1,7 +1,7 @@
 <template>
 	<q-input
 		ref="inputRef"
-		v-model="maskedValue"
+		v-model="formattedValue"
 		@update:model-value="updateModelValue"
 	>
 		<template v-for="(_, slot) in $slots" #[slot]="scope">
@@ -43,13 +43,13 @@ const defaultCurrency: CurrencyInputOptions = {
 
 const currencyOptions = ref<CurrencyInputOptions>({...defaultCurrency, ...options} as CurrencyInputOptions)
 
-const {inputRef, setOptions, numberValue} = useCurrencyInput(currencyOptions.value)
+const {inputRef, setOptions, formattedValue, numberValue} = useCurrencyInput(currencyOptions.value)
 watch(() => options, () => {
 	setOptions({...defaultCurrency, ...options} as CurrencyInputOptions)
 }, {deep: true})
 
-const maskedValue = ref(numberValue)
-function updateModelValue(val: any) {
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+function updateModelValue(_val: any) {
 	$emits('update:model-value', numberValue, currencyOptions.value)
 }
 </script>
