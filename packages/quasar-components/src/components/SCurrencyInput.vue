@@ -23,7 +23,7 @@ interface Props {
 }
 
 const {modelValue, options} = defineProps<Props>()
-const $emits = defineEmits(['update:model-value', 'update:modelValue', 'change'])
+const $emit = defineEmits(['update:model-value', 'update:modelValue', 'change'])
 
 const defaultCurrency: CurrencyInputOptions = {
 	currency: 'USD',
@@ -50,7 +50,7 @@ watch(() => options, () => {
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 function updateModelValue(_val: any) {
-	$emits('update:model-value', numberValue, currencyOptions.value)
+	$emit('update:model-value', numberValue, currencyOptions.value)
 }
 </script>
 <style lang="scss" scoped></style>
