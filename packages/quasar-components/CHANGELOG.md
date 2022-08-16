@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.30](https://github.com/snickbit/quasar-plugins/compare/@snickbit/quasar@0.2.29...@snickbit/quasar@0.2.30) (2022-08-16)
+
+### Bug Fixes
+
+* use formattedValue Ref for display and numberValue for emit ([9e2aca7](https://github.com/snickbit/quasar-plugins/commit/9e2aca7dc095ada370dc1ca0bc6971025b4e5e20))
+
 ## [0.2.29](https://github.com/snickbit/quasar-plugins/compare/@snickbit/quasar@0.2.28...@snickbit/quasar@0.2.29) (2022-08-15)
 
 ### Bug Fixes
