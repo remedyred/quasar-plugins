@@ -22,6 +22,7 @@ interface Props {
 	options?: SCurrencyInputOptions
 }
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const {modelValue, options} = defineProps<Props>()
 const $emit = defineEmits(['update:model-value', 'update:modelValue', 'change'])
 
