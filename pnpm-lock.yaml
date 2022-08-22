@@ -63,7 +63,7 @@ importers:
       sass: ^1.53.0
       shx: ^0.3.4
       typescript: ^4.7.4
-      vite: 3.0.4
+      vite: 3.0.9
       vite-plugin-dts: ^1.4.1
       vue: ^3.2.37
       vue-currency-input: ^3.0.0
@@ -76,11 +76,11 @@ importers:
       vue-currency-input: 3.0.0_vue@3.2.37
       vue-router: 4.1.3_vue@3.2.37
     devDependencies:
-      '@quasar/vite-plugin': 1.1.1_7inu4tmu34zjajp6fns63xh3nm
+      '@quasar/vite-plugin': 1.1.1_33ry6yjkrslmcqtbb7fn67ny3q
       '@snickbit/indexer': 2.5.7
       '@snickbit/node-cli': 3.0.4
       '@snickbit/out': 2.0.37
-      '@vitejs/plugin-vue': 3.0.3_vite@3.0.4+vue@3.2.37
+      '@vitejs/plugin-vue': 3.0.3_vite@3.0.9+vue@3.2.37
       bundle-scss: 1.5.1
       chokidar: 3.5.3
       concurrently: 7.3.0
@@ -88,8 +88,8 @@ importers:
       sass: 1.54.5
       shx: 0.3.4
       typescript: 4.7.4
-      vite: 3.0.4_sass@1.54.5
-      vite-plugin-dts: 1.4.1_vite@3.0.4
+      vite: 3.0.9_sass@1.54.5
+      vite-plugin-dts: 1.4.1_vite@3.0.9
 
   packages/quasar-forms:
     specifiers:
@@ -101,7 +101,7 @@ importers:
       quasar: ^2.7.3
       sass: 1.54.3
       shx: ^0.3.4
-      vite: 3.0.4
+      vite: 3.0.9
       vite-plugin-dts: ^1.4.1
       vue: ^3.2.37
       vue-router: ^4.0.16
@@ -112,13 +112,13 @@ importers:
       vue: 3.2.37
       vue-router: 4.1.3_vue@3.2.37
     devDependencies:
-      '@quasar/vite-plugin': 1.1.1_7inu4tmu34zjajp6fns63xh3nm
+      '@quasar/vite-plugin': 1.1.1_33ry6yjkrslmcqtbb7fn67ny3q
       '@snickbit/indexer': 2.5.7
-      '@vitejs/plugin-vue': 3.0.3_vite@3.0.4+vue@3.2.37
+      '@vitejs/plugin-vue': 3.0.3_vite@3.0.9+vue@3.2.37
       sass: 1.54.3
       shx: 0.3.4
-      vite: 3.0.4_sass@1.54.3
-      vite-plugin-dts: 1.4.1_vite@3.0.4
+      vite: 3.0.9_sass@1.54.3
+      vite-plugin-dts: 1.4.1_vite@3.0.9
 
   packages/quasar-menu:
     specifiers:
@@ -130,7 +130,7 @@ importers:
       quasar: ^2.7.3
       sass: 1.54.3
       shx: 0.3.4
-      vite: 3.0.4
+      vite: 3.0.9
       vite-plugin-dts: ^1.4.1
       vue: ^3.2.37
       vue-router: ^4.0.16
@@ -141,13 +141,13 @@ importers:
       vue: 3.2.37
       vue-router: 4.1.3_vue@3.2.37
     devDependencies:
-      '@quasar/vite-plugin': 1.1.1_7inu4tmu34zjajp6fns63xh3nm
+      '@quasar/vite-plugin': 1.1.1_33ry6yjkrslmcqtbb7fn67ny3q
       '@snickbit/indexer': 2.5.7
-      '@vitejs/plugin-vue': 3.0.3_vite@3.0.4+vue@3.2.37
+      '@vitejs/plugin-vue': 3.0.3_vite@3.0.9+vue@3.2.37
       sass: 1.54.3
       shx: 0.3.4
-      vite: 3.0.4_sass@1.54.3
-      vite-plugin-dts: 1.4.1_vite@3.0.4
+      vite: 3.0.9_sass@1.54.3
+      vite-plugin-dts: 1.4.1_vite@3.0.9
 
 packages:
 
@@ -1260,7 +1260,7 @@ packages:
     resolution: {integrity: sha512-c8nL5ccja+2xlQrcyraxdzcnn297rDzjH0LcyeqShcsRA5+6Yr6wQD9BEzpFgNTZvpP51sZlQHfV07nUd9OxDA==}
     dev: false
 
-  /@quasar/vite-plugin/1.1.1_7inu4tmu34zjajp6fns63xh3nm:
+  /@quasar/vite-plugin/1.1.1_33ry6yjkrslmcqtbb7fn67ny3q:
     resolution: {integrity: sha512-qTFXSprubTEdKxoWqmkQi8rwSRf6l5IvGD2svUFZzt3jz9brr2nBsRsUbhN4byryUwGdJ4HoN3vpoFi13A5uTQ==}
     engines: {node: '>=12'}
     peerDependencies:
@@ -1269,7 +1269,7 @@ packages:
       vue: ^3.0.0
     dependencies:
       quasar: 2.7.7
-      vite: 3.0.4_sass@1.54.5
+      vite: 3.0.9_sass@1.54.5
       vue: 3.2.37
     dev: true
 
@@ -1733,14 +1733,14 @@ packages:
       eslint-visitor-keys: 3.3.0
     dev: true
 
-  /@vitejs/plugin-vue/3.0.3_vite@3.0.4+vue@3.2.37:
+  /@vitejs/plugin-vue/3.0.3_vite@3.0.9+vue@3.2.37:
     resolution: {integrity: sha512-U4zNBlz9mg+TA+i+5QPc3N5lQvdUXENZLO2h0Wdzp56gI1MWhqJOv+6R+d4kOzoaSSq6TnGPBdZAXKOe4lXy6g==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       vite: ^3.0.0
       vue: ^3.2.25
     dependencies:
-      vite: 3.0.4_sass@1.54.5
+      vite: 3.0.9_sass@1.54.5
       vue: 3.2.37
     dev: true
 
@@ -5959,6 +5959,14 @@ packages:
       glob: 7.2.3
     dev: true
 
+  /rollup/2.77.3:
+    resolution: {integrity: sha512-/qxNTG7FbmefJWoeeYJFbHehJ2HNWnjkAFRKzWN/45eNBBF/r8lo992CwcJXEzyVxs5FmfId+vTSTQDb+bxA+g==}
+    engines: {node: '>=10.0.0'}
+    hasBin: true
+    optionalDependencies:
+      fsevents: 2.3.2
+    dev: true
+
   /rollup/2.78.1:
     resolution: {integrity: sha512-VeeCgtGi4P+o9hIg+xz4qQpRl6R401LWEXBmxYKOV4zlF82lyhgh2hTZnheFUbANE8l2A41F458iwj2vEYaXJg==}
     engines: {node: '>=10.0.0'}
@@ -6798,7 +6806,7 @@ packages:
     engines: {node: '>= 0.10'}
     dev: true
 
-  /vite-plugin-dts/1.4.1_vite@3.0.4:
+  /vite-plugin-dts/1.4.1_vite@3.0.9:
     resolution: {integrity: sha512-jo7E4ZeheD2o48oGiI3EygPbej7ZkGFHg3GVTt7Wuo6NgzThLvuzGGuduaFpnhJOGi1piDFsu6oui/wDKIIORQ==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
@@ -6811,13 +6819,13 @@ packages:
       fast-glob: 3.2.11
       fs-extra: 10.1.0
       ts-morph: 14.0.0
-      vite: 3.0.4_sass@1.54.5
+      vite: 3.0.9_sass@1.54.5
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite/3.0.4_sass@1.54.3:
-    resolution: {integrity: sha512-NU304nqnBeOx2MkQnskBQxVsa0pRAH5FphokTGmyy8M3oxbvw7qAXts2GORxs+h/2vKsD+osMhZ7An6yK6F1dA==}
+  /vite/3.0.9_sass@1.54.3:
+    resolution: {integrity: sha512-waYABTM+G6DBTCpYAxvevpG50UOlZuynR0ckTK5PawNVt7ebX6X7wNXHaGIO6wYYFXSM7/WcuFuO2QzhBB6aMw==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -6838,14 +6846,14 @@ packages:
       esbuild: 0.14.54
       postcss: 8.4.16
       resolve: 1.22.1
-      rollup: 2.78.1
+      rollup: 2.77.3
       sass: 1.54.3
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
 
-  /vite/3.0.4_sass@1.54.5:
-    resolution: {integrity: sha512-NU304nqnBeOx2MkQnskBQxVsa0pRAH5FphokTGmyy8M3oxbvw7qAXts2GORxs+h/2vKsD+osMhZ7An6yK6F1dA==}
+  /vite/3.0.9_sass@1.54.5:
+    resolution: {integrity: sha512-waYABTM+G6DBTCpYAxvevpG50UOlZuynR0ckTK5PawNVt7ebX6X7wNXHaGIO6wYYFXSM7/WcuFuO2QzhBB6aMw==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -6866,7 +6874,7 @@ packages:
       esbuild: 0.14.54
       postcss: 8.4.16
       resolve: 1.22.1
-      rollup: 2.78.1
+      rollup: 2.77.3
       sass: 1.54.5
     optionalDependencies:
       fsevents: 2.3.2
