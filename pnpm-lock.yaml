@@ -99,7 +99,7 @@ importers:
       '@snickbit/utilities': ^3.2.0
       '@vitejs/plugin-vue': 3.0.3
       quasar: ^2.7.3
-      sass: 1.54.5
+      sass: 1.54.8
       shx: ^0.3.4
       vite: 3.0.9
       vite-plugin-dts: ^1.4.1
@@ -115,9 +115,9 @@ importers:
       '@quasar/vite-plugin': 1.1.1_33ry6yjkrslmcqtbb7fn67ny3q
       '@snickbit/indexer': 2.5.7
       '@vitejs/plugin-vue': 3.0.3_vite@3.0.9+vue@3.2.37
-      sass: 1.54.5
+      sass: 1.54.8
       shx: 0.3.4
-      vite: 3.0.9_sass@1.54.5
+      vite: 3.0.9_sass@1.54.8
       vite-plugin-dts: 1.4.1_vite@3.0.9
 
   packages/quasar-menu:
@@ -128,7 +128,7 @@ importers:
       '@snickbit/utilities': ^3.2.0
       '@vitejs/plugin-vue': 3.0.3
       quasar: ^2.7.3
-      sass: 1.54.5
+      sass: 1.54.8
       shx: 0.3.4
       vite: 3.0.9
       vite-plugin-dts: ^1.4.1
@@ -144,9 +144,9 @@ importers:
       '@quasar/vite-plugin': 1.1.1_33ry6yjkrslmcqtbb7fn67ny3q
       '@snickbit/indexer': 2.5.7
       '@vitejs/plugin-vue': 3.0.3_vite@3.0.9+vue@3.2.37
-      sass: 1.54.5
+      sass: 1.54.8
       shx: 0.3.4
-      vite: 3.0.9_sass@1.54.5
+      vite: 3.0.9_sass@1.54.8
       vite-plugin-dts: 1.4.1_vite@3.0.9
 
 packages:
@@ -6144,6 +6144,16 @@ packages:
       source-map-js: 1.0.2
     dev: true
 
+  /sass/1.54.8:
+    resolution: {integrity: sha512-ib4JhLRRgbg6QVy6bsv5uJxnJMTS2soVcCp9Y88Extyy13A8vV0G1fAwujOzmNkFQbR3LvedudAMbtuNRPbQww==}
+    engines: {node: '>=12.0.0'}
+    hasBin: true
+    dependencies:
+      chokidar: 3.5.3
+      immutable: 4.1.0
+      source-map-js: 1.0.2
+    dev: true
+
   /scss-parser/1.0.5:
     resolution: {integrity: sha512-RZOtvCmCnwkDo7kdcYBi807Y5EoTIxJ34AgEgJNDmOH1jl0/xG0FyYZFbH6Ga3Iwu7q8LSdxJ4C5UkzNXjQxKQ==}
     engines: {node: '>=6.0.0'}
@@ -6968,6 +6978,34 @@ packages:
       resolve: 1.22.1
       rollup: 2.77.3
       sass: 1.54.5
+    optionalDependencies:
+      fsevents: 2.3.2
+    dev: true
+
+  /vite/3.0.9_sass@1.54.8:
+    resolution: {integrity: sha512-waYABTM+G6DBTCpYAxvevpG50UOlZuynR0ckTK5PawNVt7ebX6X7wNXHaGIO6wYYFXSM7/WcuFuO2QzhBB6aMw==}
+    engines: {node: ^14.18.0 || >=16.0.0}
+    hasBin: true
+    peerDependencies:
+      less: '*'
+      sass: '*'
+      stylus: '*'
+      terser: ^5.4.0
+    peerDependenciesMeta:
+      less:
+        optional: true
+      sass:
+        optional: true
+      stylus:
+        optional: true
+      terser:
+        optional: true
+    dependencies:
+      esbuild: 0.14.54
+      postcss: 8.4.16
+      resolve: 1.22.1
+      rollup: 2.77.3
+      sass: 1.54.8
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
