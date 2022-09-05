@@ -6,7 +6,7 @@ importers:
     specifiers:
       '@lerna-lite/cli': ^1.6.0
       '@snickbit/eslint-config': 1.3.2
-      '@snickbit/readmes': ^0.0.2
+      '@snickbit/readmes': ^0.0.4
       '@types/jest': 28.1.8
       '@typescript-eslint/eslint-plugin': ^5.30.5
       '@typescript-eslint/parser': ^5.30.5
@@ -27,7 +27,7 @@ importers:
     devDependencies:
       '@lerna-lite/cli': 1.11.1
       '@snickbit/eslint-config': 1.3.2_njvpd7oexm4jrpqkdx4xx3mxbm
-      '@snickbit/readmes': 0.0.2
+      '@snickbit/readmes': 0.0.4
       '@types/jest': 28.1.8
       '@typescript-eslint/eslint-plugin': 5.35.1_pfwtupu3r4wxmgbx6hj7gwmyuu
       '@typescript-eslint/parser': 5.35.1_yqf6kl63nyoq5megxukfnom5rm
@@ -1454,8 +1454,8 @@ packages:
     resolution: {integrity: sha512-Bmxmhi984QgV+Yo5T4uMuKGmfgkkv7BpFkfo0p1di/4ZZt379vDTOLCPf3+HZec12pabMFUCHcq8vyxjUCxcDA==}
     engines: {node: '>= 12'}
 
-  /@snickbit/readmes/0.0.2:
-    resolution: {integrity: sha512-BahHYKrOyih3x5veF4r6jZA3mTrT0Bn+RGLdXLmqc/7xKMQD8AbdSpzYoMZDNm6VsaP/bo7H4WN1bkKpR5i58g==}
+  /@snickbit/readmes/0.0.4:
+    resolution: {integrity: sha512-NAZR8RMikOJw5G4Gx8lI/ryaeRtKi3cQJ/uWzMkjVAkARDWyasvr/1zimOc5I4vQQshqKyOCX3VA/OtCs9NSEg==}
     engines: {node: '>= 12'}
     hasBin: true
     dependencies:
