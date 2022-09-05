@@ -123,7 +123,7 @@ importers:
   packages/quasar-menu:
     specifiers:
       '@quasar/vite-plugin': 1.1.1
-      '@snickbit/indexer': 2.5.7
+      '@snickbit/indexer': 2.5.12
       '@snickbit/minia': ^0.0.31
       '@snickbit/utilities': ^3.2.0
       '@vitejs/plugin-vue': 3.0.3
@@ -142,7 +142,7 @@ importers:
       vue-router: 4.1.5_vue@3.2.37
     devDependencies:
       '@quasar/vite-plugin': 1.1.1_33ry6yjkrslmcqtbb7fn67ny3q
-      '@snickbit/indexer': 2.5.7
+      '@snickbit/indexer': 2.5.12
       '@vitejs/plugin-vue': 3.0.3_vite@3.0.9+vue@3.2.37
       sass: 1.54.5
       shx: 0.3.4
@@ -1322,8 +1322,8 @@ packages:
       '@sinonjs/commons': 1.8.3
     dev: true
 
-  /@snickbit/ansi/0.0.10:
-    resolution: {integrity: sha512-zBUIdLmINK16KQfFwr2ecyd30EmiLOmscb3Z2cdutZx39Mma4KDZFZc3IOq/kzrqL6tvSyo0HFA5KLwT6o0NjQ==}
+  /@snickbit/ansi/0.0.12:
+    resolution: {integrity: sha512-EVnUGT1CyHU0OOHfn13hLO9+m0Ou2aTYZ2wCLLb0zgzxV/F7zgavAledWxVptcIwIlk0AxqWfrgieBlmsAfr9Q==}
     engines: {node: '>= 12'}
     dev: true
 
@@ -1358,6 +1358,20 @@ packages:
       - jest
       - supports-color
       - typescript
+    dev: true
+
+  /@snickbit/indexer/2.5.12:
+    resolution: {integrity: sha512-Sw3VGdpRC3lnFxaJ9gGP49NZMfjKFXSgwjk0FE5gYhtIA8Fe34Z0SO8P2po+N/nyoFc79aqMzEnS8HZRZxu+MQ==}
+    engines: {node: '>= 12'}
+    hasBin: true
+    dependencies:
+      '@snickbit/node-cli': 2.0.2
+      '@snickbit/node-utilities': 4.4.9
+      '@snickbit/out': 2.0.37
+      '@snickbit/utilities': 3.4.2
+      fast-glob: 3.2.11
+      lilconfig: 2.0.6
+      picomatch: 2.3.1
     dev: true
 
   /@snickbit/indexer/2.5.7:
@@ -1427,7 +1441,7 @@ packages:
     resolution: {integrity: sha512-fTVcE5QKVSNKMddUVqwXGsc5jx87L8sKm6ufA1z/02ygibz/pCGqmDI5lQZsv7qIFwm+9h0r3ydk59RCf7gw8Q==}
     engines: {node: '>= 12'}
     dependencies:
-      '@snickbit/ansi': 0.0.10
+      '@snickbit/ansi': 0.0.12
       '@snickbit/cycle': 0.0.29
       '@snickbit/utilities': 3.4.2
       ansi-styles-template: 1.0.0
