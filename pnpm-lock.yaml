@@ -123,7 +123,7 @@ importers:
   packages/quasar-menu:
     specifiers:
       '@quasar/vite-plugin': 1.1.1
-      '@snickbit/indexer': 2.5.12
+      '@snickbit/indexer': 2.5.15
       '@snickbit/minia': ^0.0.35
       '@snickbit/utilities': ^3.2.0
       '@vitejs/plugin-vue': 3.0.3
@@ -142,7 +142,7 @@ importers:
       vue-router: 4.1.5_vue@3.2.38
     devDependencies:
       '@quasar/vite-plugin': 1.1.1_ypwirnofg5ymml35wcnealqhda
-      '@snickbit/indexer': 2.5.12
+      '@snickbit/indexer': 2.5.15
       '@vitejs/plugin-vue': 3.0.3_vite@3.0.9+vue@3.2.38
       sass: 1.54.5
       shx: 0.3.4
@@ -1368,22 +1368,22 @@ packages:
       - typescript
     dev: true
 
-  /@snickbit/indexer/2.5.12:
-    resolution: {integrity: sha512-Sw3VGdpRC3lnFxaJ9gGP49NZMfjKFXSgwjk0FE5gYhtIA8Fe34Z0SO8P2po+N/nyoFc79aqMzEnS8HZRZxu+MQ==}
+  /@snickbit/indexer/2.5.14:
+    resolution: {integrity: sha512-CYQFOCvUkLVLvQmSI9Drq22hDWSOzDbtzmbB4PDXYhjV5KxbmCPNLeL9cDEeUvXaI7Z5cfE4o4PdfMRPRrrsBw==}
     engines: {node: '>= 12'}
     hasBin: true
     dependencies:
       '@snickbit/node-cli': 2.0.2
       '@snickbit/node-utilities': 4.4.9
-      '@snickbit/out': 2.0.37
+      '@snickbit/out': 2.0.39
       '@snickbit/utilities': 3.4.2
       fast-glob: 3.2.11
       lilconfig: 2.0.6
       picomatch: 2.3.1
     dev: true
 
-  /@snickbit/indexer/2.5.14:
-    resolution: {integrity: sha512-CYQFOCvUkLVLvQmSI9Drq22hDWSOzDbtzmbB4PDXYhjV5KxbmCPNLeL9cDEeUvXaI7Z5cfE4o4PdfMRPRrrsBw==}
+  /@snickbit/indexer/2.5.15:
+    resolution: {integrity: sha512-6xjoj/FdQZPpHb3uecFQrSzdUSVAuT1+fyTP6c8+02RxtWV9SttN1BUDHdw8WxEXwdwdtVai2M1xVAHjydoNNQ==}
     engines: {node: '>= 12'}
     hasBin: true
     dependencies:
@@ -1425,8 +1425,8 @@ packages:
     engines: {node: '>= 12'}
     dependencies:
       '@snickbit/node-utilities': 4.4.9
-      '@snickbit/out': 2.0.37
-      '@snickbit/utilities': 3.4.2
+      '@snickbit/out': 2.0.39
+      '@snickbit/utilities': 3.4.4
       lilconfig: 2.0.6
       yargs-parser: 21.1.1
     dev: true
