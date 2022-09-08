@@ -54,7 +54,7 @@ importers:
       '@snickbit/node-cli': ^3.0.4
       '@snickbit/out': ^2.0.37
       '@snickbit/utilities': ^3.2.0
-      '@vitejs/plugin-vue': 3.0.3
+      '@vitejs/plugin-vue': 3.1.0
       bundle-scss: ^1.5.1
       chokidar: ^3.5.3
       concurrently: ^7.2.2
@@ -80,7 +80,7 @@ importers:
       '@snickbit/indexer': 2.5.14
       '@snickbit/node-cli': 3.0.9
       '@snickbit/out': 2.0.39
-      '@vitejs/plugin-vue': 3.0.3_vite@3.0.9+vue@3.2.38
+      '@vitejs/plugin-vue': 3.1.0_vite@3.0.9+vue@3.2.38
       bundle-scss: 1.5.1
       chokidar: 3.5.3
       concurrently: 7.3.0
@@ -97,7 +97,7 @@ importers:
       '@snickbit/indexer': ^2.5.5
       '@snickbit/minia': ^0.0.35
       '@snickbit/utilities': ^3.2.0
-      '@vitejs/plugin-vue': 3.0.3
+      '@vitejs/plugin-vue': 3.1.0
       quasar: ^2.7.3
       sass: 1.54.5
       shx: ^0.3.4
@@ -114,7 +114,7 @@ importers:
     devDependencies:
       '@quasar/vite-plugin': 1.1.1_ypwirnofg5ymml35wcnealqhda
       '@snickbit/indexer': 2.5.14
-      '@vitejs/plugin-vue': 3.0.3_vite@3.0.9+vue@3.2.38
+      '@vitejs/plugin-vue': 3.1.0_vite@3.0.9+vue@3.2.38
       sass: 1.54.5
       shx: 0.3.4
       vite: 3.0.9_sass@1.54.5
@@ -126,7 +126,7 @@ importers:
       '@snickbit/indexer': 2.5.15
       '@snickbit/minia': ^0.0.35
       '@snickbit/utilities': ^3.2.0
-      '@vitejs/plugin-vue': 3.0.3
+      '@vitejs/plugin-vue': 3.1.0
       quasar: ^2.7.3
       sass: 1.54.5
       shx: 0.3.4
@@ -143,7 +143,7 @@ importers:
     devDependencies:
       '@quasar/vite-plugin': 1.1.1_ypwirnofg5ymml35wcnealqhda
       '@snickbit/indexer': 2.5.15
-      '@vitejs/plugin-vue': 3.0.3_vite@3.0.9+vue@3.2.38
+      '@vitejs/plugin-vue': 3.1.0_vite@3.0.9+vue@3.2.38
       sass: 1.54.5
       shx: 0.3.4
       vite: 3.0.9_sass@1.54.5
@@ -1806,8 +1806,8 @@ packages:
       eslint-visitor-keys: 3.3.0
     dev: true
 
-  /@vitejs/plugin-vue/3.0.3_vite@3.0.9+vue@3.2.38:
-    resolution: {integrity: sha512-U4zNBlz9mg+TA+i+5QPc3N5lQvdUXENZLO2h0Wdzp56gI1MWhqJOv+6R+d4kOzoaSSq6TnGPBdZAXKOe4lXy6g==}
+  /@vitejs/plugin-vue/3.1.0_vite@3.0.9+vue@3.2.38:
+    resolution: {integrity: sha512-fmxtHPjSOEIRg6vHYDaem+97iwCUg/uSIaTzp98lhELt2ISOQuDo2hbkBdXod0g15IhfPMQmAxh4heUks2zvDA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       vite: ^3.0.0
