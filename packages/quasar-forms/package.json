@@ -23,7 +23,7 @@
 		"watch": "vite build --watch"
 	},
 	"dependencies": {
-		"@snickbit/minia": "^0.0.36",
+		"@snickbit/minia": "^0.0.40",
 		"@snickbit/utilities": "^3.2.0",
 		"quasar": "^2.7.3",
 		"vue": "^3.2.37",
