@@ -95,7 +95,7 @@ importers:
     specifiers:
       '@quasar/vite-plugin': ^1.0.10
       '@snickbit/indexer': ^2.5.5
-      '@snickbit/minia': ^0.0.40
+      '@snickbit/minia': ^0.0.41
       '@snickbit/utilities': ^3.2.0
       '@vitejs/plugin-vue': 3.1.0
       quasar: ^2.7.3
@@ -106,7 +106,7 @@ importers:
       vue: ^3.2.37
       vue-router: ^4.0.16
     dependencies:
-      '@snickbit/minia': 0.0.40_vue@3.2.39
+      '@snickbit/minia': 0.0.41_vue@3.2.39
       '@snickbit/utilities': 3.4.9
       quasar: 2.7.7
       vue: 3.2.39
@@ -124,7 +124,7 @@ importers:
     specifiers:
       '@quasar/vite-plugin': 1.1.1
       '@snickbit/indexer': 2.5.20
-      '@snickbit/minia': ^0.0.40
+      '@snickbit/minia': ^0.0.41
       '@snickbit/utilities': ^3.2.0
       '@vitejs/plugin-vue': 3.1.0
       quasar: ^2.7.3
@@ -135,7 +135,7 @@ importers:
       vue: ^3.2.37
       vue-router: ^4.0.16
     dependencies:
-      '@snickbit/minia': 0.0.40_vue@3.2.39
+      '@snickbit/minia': 0.0.41_vue@3.2.39
       '@snickbit/utilities': 3.4.9
       quasar: 2.7.7
       vue: 3.2.39
@@ -1380,8 +1380,8 @@ packages:
       picomatch: 2.3.1
     dev: true
 
-  /@snickbit/minia/0.0.40_vue@3.2.39:
-    resolution: {integrity: sha512-2bC2rebJOdLj8xqbs2Ogpdsio0Y8OgiQSrRqX9ApCTOHg4pl8BrGhuQhRd7CYCj9aryM46Klm9F9667e8Y9XhQ==}
+  /@snickbit/minia/0.0.41_vue@3.2.39:
+    resolution: {integrity: sha512-2OyR5WXHovmJ0xo8j1cZmQaEiNrOlOxiRTloFWtURSZ+uU4nwBfY1HcR3ZQOJjZcDWaEqEzzKwkyU0InI6nK7A==}
     engines: {node: '>= 12'}
     dependencies:
       '@snickbit/utilities': 3.4.9
