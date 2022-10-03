@@ -123,7 +123,7 @@ importers:
   packages/quasar-menu:
     specifiers:
       '@quasar/vite-plugin': 1.2.3
-      '@snickbit/indexer': 2.5.20
+      '@snickbit/indexer': 2.5.25
       '@snickbit/minia': ^0.0.44
       '@snickbit/utilities': ^3.2.0
       '@vitejs/plugin-vue': 3.1.0
@@ -142,7 +142,7 @@ importers:
       vue-router: 4.1.5_vue@3.2.40
     devDependencies:
       '@quasar/vite-plugin': 1.2.3_aa6bnghwawrcrwet35ld3n6kci
-      '@snickbit/indexer': 2.5.20
+      '@snickbit/indexer': 2.5.25
       '@vitejs/plugin-vue': 3.1.0_vite@3.1.4+vue@3.2.40
       sass: 1.54.5
       shx: 0.3.4
@@ -1365,20 +1365,6 @@ packages:
       - jest
       - supports-color
       - typescript
-    dev: true
-
-  /@snickbit/indexer/2.5.20:
-    resolution: {integrity: sha512-v3oiWYp+EYaANv3CgOUmz2dEW7hdQeyL4978oM2UzGDqAng4cHbE8QWZUyQyHj+BPhTBLOmDItw+EhaKNhHVqw==}
-    engines: {node: '>= 12'}
-    hasBin: true
-    dependencies:
-      '@snickbit/node-cli': 2.0.2
-      '@snickbit/node-utilities': 4.4.9
-      '@snickbit/out': 2.0.40
-      '@snickbit/utilities': 3.4.2
-      fast-glob: 3.2.11
-      lilconfig: 2.0.6
-      picomatch: 2.3.1
     dev: true
 
   /@snickbit/indexer/2.5.25:
