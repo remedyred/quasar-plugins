@@ -6,7 +6,7 @@ importers:
     specifiers:
       '@lerna-lite/cli': ^1.6.0
       '@snickbit/eslint-config': 1.3.6
-      '@snickbit/readmes': ^0.0.13
+      '@snickbit/readmes': ^0.0.19
       '@types/jest': 28.1.8
       '@typescript-eslint/eslint-plugin': ^5.30.5
       '@typescript-eslint/parser': ^5.30.5
@@ -27,7 +27,7 @@ importers:
     devDependencies:
       '@lerna-lite/cli': 1.11.3
       '@snickbit/eslint-config': 1.3.6_wikzf3zjzdwilmbukvfvhniz4m
-      '@snickbit/readmes': 0.0.13
+      '@snickbit/readmes': 0.0.19
       '@types/jest': 28.1.8
       '@typescript-eslint/eslint-plugin': 5.38.1_c7qepppml3d4ahu5cnfwqe6ltq
       '@typescript-eslint/parser': 5.38.1_ypn2ylkkyfa5i233caldtndbqa
@@ -1419,17 +1419,6 @@ packages:
       yargs-parser: 21.1.1
     dev: true
 
-  /@snickbit/node-cli/3.0.14:
-    resolution: {integrity: sha512-S+dXyFLF9XKM2hmxlfhuMnTZmcDHZYRU+v5W3jdaPo5J6zFmn8EVZVOFvlkbfAZ4IH1k8uOe1X92tbFSKbmgyg==}
-    engines: {node: '>= 12'}
-    dependencies:
-      '@snickbit/node-utilities': 4.4.9
-      '@snickbit/out': 2.0.40
-      '@snickbit/utilities': 3.4.2
-      lilconfig: 2.0.6
-      yargs-parser: 21.1.1
-    dev: true
-
   /@snickbit/node-cli/3.0.22:
     resolution: {integrity: sha512-I/CcIMVhp+5e0mTHR5gM4+ms7ckoAfMlBOnzsWgcanVK9ylIQDQC1jngLgYGlpGfZrA+wC9B04zZQ9gjpAwKwQ==}
     engines: {node: '>= 12'}
@@ -1503,14 +1492,14 @@ packages:
     resolution: {integrity: sha512-F8nlHKito8NFfM06T/oUePBPcEOcsLgPtB9HFfMD9M57wArgjLBGu7D8WyzWWn0RhGWL3q/Bl/AWHCaekS/Bmg==}
     engines: {node: '>= 12'}
 
-  /@snickbit/readmes/0.0.13:
-    resolution: {integrity: sha512-gXUj1sEm563KE39TtYDuMvZkDhHAyl4opvYvzKckJFlcLsrrEOSdNiGbPb/O0ycdt/gahsJNu+i+egWGGPMQMA==}
+  /@snickbit/readmes/0.0.19:
+    resolution: {integrity: sha512-IYQHOmEnQKixBIR4GBZBXqkeXfFZx8zeqSuDqOTED4QdLUdlxaPFjF64+ZjTR0o0HM41Et9ofXdKAXuFJbKghQ==}
     engines: {node: '>= 12'}
     hasBin: true
     dependencies:
-      '@snickbit/node-cli': 3.0.14
+      '@snickbit/node-cli': 3.0.22
       '@snickbit/node-utilities': 4.4.9
-      '@snickbit/out': 2.0.40
+      '@snickbit/out': 2.0.44
       '@snickbit/upwords': 2.0.25
       '@snickbit/utilities': 3.4.2
       ejs: 3.1.8
