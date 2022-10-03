@@ -30,7 +30,7 @@
 		"vue-router": "^4.0.16"
 	},
 	"devDependencies": {
-		"@quasar/vite-plugin": "1.1.1",
+		"@quasar/vite-plugin": "1.2.3",
 		"@snickbit/indexer": "2.5.20",
 		"@vitejs/plugin-vue": "3.1.0",
 		"sass": "1.54.5",
