@@ -95,7 +95,7 @@ importers:
     specifiers:
       '@quasar/vite-plugin': ^1.0.10
       '@snickbit/indexer': ^2.5.5
-      '@snickbit/minia': ^0.0.45
+      '@snickbit/minia': ^0.0.46
       '@snickbit/utilities': ^3.2.0
       '@vitejs/plugin-vue': 3.2.0
       quasar: ^2.7.3
@@ -106,7 +106,7 @@ importers:
       vue: ^3.2.37
       vue-router: ^4.0.16
     dependencies:
-      '@snickbit/minia': 0.0.45_vue@3.2.40
+      '@snickbit/minia': 0.0.46_vue@3.2.40
       '@snickbit/utilities': 3.4.13
       quasar: 2.8.4
       vue: 3.2.40
@@ -124,7 +124,7 @@ importers:
     specifiers:
       '@quasar/vite-plugin': 1.2.3
       '@snickbit/indexer': 2.5.28
-      '@snickbit/minia': ^0.0.45
+      '@snickbit/minia': ^0.0.46
       '@snickbit/utilities': ^3.2.0
       '@vitejs/plugin-vue': 3.2.0
       quasar: ^2.7.3
@@ -135,7 +135,7 @@ importers:
       vue: ^3.2.37
       vue-router: ^4.0.16
     dependencies:
-      '@snickbit/minia': 0.0.45_vue@3.2.40
+      '@snickbit/minia': 0.0.46_vue@3.2.40
       '@snickbit/utilities': 3.4.13
       quasar: 2.8.4
       vue: 3.2.40
@@ -1395,11 +1395,11 @@ packages:
       picomatch: 2.3.1
     dev: true
 
-  /@snickbit/minia/0.0.45_vue@3.2.40:
-    resolution: {integrity: sha512-2Lie7wV5bxiOlvy8HJf84LUCP+rPm0Q5R94liGXolLHLKP+9YHP3bL6mM4hhjuqrWme+EfNNj4JKQzv59SGfGw==}
+  /@snickbit/minia/0.0.46_vue@3.2.40:
+    resolution: {integrity: sha512-w6Rs36IHo+Y8e2V3zdUpY6Q2paMfoo2owsNMfjOOhGEOksBwdmnnD640EyxsMNZGAux2MApbbH6baxh/qeYRKw==}
     engines: {node: '>= 12'}
     dependencies:
-      '@snickbit/utilities': 3.4.13
+      '@snickbit/utilities': 3.4.15
       localforage: 1.10.0
       mitt: 3.0.0
       vue-demi: 0.13.11_vue@3.2.40
@@ -1520,7 +1520,6 @@ packages:
   /@snickbit/plural/1.0.9:
     resolution: {integrity: sha512-FFbmZ82K36lI5YBXAQK4mJtEfvQhrckZSHT4+RDzdDHPhHKl5M9dJKA5mLdSvALSiaTIUYoM3vOMJPG0stGwhA==}
     engines: {node: '>= 12'}
-    dev: true
 
   /@snickbit/readmes/0.0.23:
     resolution: {integrity: sha512-yBEVXUuqbm7PFUlGYdRWeMhfj6K2ekf4RgxMaTTNGaR40A4eE/kC0ywjGbgjMZgq7wXtwmDvtdIZ6AEmtCdLxw==}
@@ -1557,7 +1556,6 @@ packages:
       '@snickbit/plural': 1.0.9
       just-camel-case: 6.1.1
       nanoid: 3.3.4
-    dev: true
 
   /@snickbit/utilities/3.4.2:
     resolution: {integrity: sha512-juE9uuScBQc11By89w7pf/VvRPQuU012ucMTPBeTTs18RzDXz2gEBAQIAnkoN1SNRN+LQUIp0hLGz9hxZB1ElQ==}
