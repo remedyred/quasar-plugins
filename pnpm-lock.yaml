@@ -54,7 +54,7 @@ importers:
       '@snickbit/node-cli': ^3.0.4
       '@snickbit/out': ^2.0.37
       '@snickbit/utilities': ^3.2.0
-      '@vitejs/plugin-vue': 3.2.0
+      '@vitejs/plugin-vue': 4.0.0
       bundle-scss: ^1.5.1
       chokidar: ^3.5.3
       concurrently: ^7.2.2
@@ -76,11 +76,11 @@ importers:
       vue-currency-input: 3.0.3_vue@3.2.45
       vue-router: 4.1.6_vue@3.2.45
     devDependencies:
-      '@quasar/vite-plugin': 1.2.3_o2wueyclfhqgceqervs56tr4sy
+      '@quasar/vite-plugin': 1.2.3_pxar4jzgsypebyinzeysgspjve
       '@snickbit/indexer': 2.5.28
       '@snickbit/node-cli': 3.0.24
       '@snickbit/out': 2.0.48
-      '@vitejs/plugin-vue': 3.2.0_vite@4.0.0+vue@3.2.45
+      '@vitejs/plugin-vue': 4.0.0_vite@4.0.0+vue@3.2.45
       bundle-scss: 1.5.1
       chokidar: 3.5.3
       concurrently: 7.6.0
@@ -97,7 +97,7 @@ importers:
       '@snickbit/indexer': ^2.5.5
       '@snickbit/minia': ^0.0.46
       '@snickbit/utilities': ^3.2.0
-      '@vitejs/plugin-vue': 3.2.0
+      '@vitejs/plugin-vue': 4.0.0
       quasar: ^2.7.3
       sass: 1.54.5
       shx: ^0.3.4
@@ -112,9 +112,9 @@ importers:
       vue: 3.2.45
       vue-router: 4.1.6_vue@3.2.45
     devDependencies:
-      '@quasar/vite-plugin': 1.2.3_o2wueyclfhqgceqervs56tr4sy
+      '@quasar/vite-plugin': 1.2.3_pxar4jzgsypebyinzeysgspjve
       '@snickbit/indexer': 2.5.28
-      '@vitejs/plugin-vue': 3.2.0_vite@4.0.0+vue@3.2.45
+      '@vitejs/plugin-vue': 4.0.0_vite@4.0.0+vue@3.2.45
       sass: 1.54.5
       shx: 0.3.4
       vite: 4.0.0_sass@1.54.5
@@ -126,7 +126,7 @@ importers:
       '@snickbit/indexer': 2.5.28
       '@snickbit/minia': ^0.0.46
       '@snickbit/utilities': ^3.2.0
-      '@vitejs/plugin-vue': 3.2.0
+      '@vitejs/plugin-vue': 4.0.0
       quasar: ^2.7.3
       sass: 1.54.5
       shx: 0.3.4
@@ -141,9 +141,9 @@ importers:
       vue: 3.2.45
       vue-router: 4.1.6_vue@3.2.45
     devDependencies:
-      '@quasar/vite-plugin': 1.2.3_o2wueyclfhqgceqervs56tr4sy
+      '@quasar/vite-plugin': 1.2.3_pxar4jzgsypebyinzeysgspjve
       '@snickbit/indexer': 2.5.28
-      '@vitejs/plugin-vue': 3.2.0_vite@4.0.0+vue@3.2.45
+      '@vitejs/plugin-vue': 4.0.0_vite@4.0.0+vue@3.2.45
       sass: 1.54.5
       shx: 0.3.4
       vite: 4.0.0_sass@1.54.5
@@ -1535,7 +1535,7 @@ packages:
     resolution: {integrity: sha512-UR6Snu7DSYdDOGqcNjUr0FJtKNfPn2Jc2hKTC+y/Y7Gf+vWu0RYUl49cguD33nn+wpbgs28+cvmjx7u3NNogoQ==}
     dev: false
 
-  /@quasar/vite-plugin/1.2.3_o2wueyclfhqgceqervs56tr4sy:
+  /@quasar/vite-plugin/1.2.3_pxar4jzgsypebyinzeysgspjve:
     resolution: {integrity: sha512-ErSyY3cHz40GBIQUmqSI8OzzshJM5pLq33Yq3NEtYdWYh1NuIc4C766xkatUdxvhX9sLNnQQZax2ysJ5u7kUJA==}
     engines: {node: '>=12'}
     peerDependencies:
@@ -1544,7 +1544,7 @@ packages:
       vite: ^2.0.0 || ^3.0.0
       vue: ^3.0.0
     dependencies:
-      '@vitejs/plugin-vue': 3.2.0_vite@4.0.0+vue@3.2.45
+      '@vitejs/plugin-vue': 4.0.0_vite@4.0.0+vue@3.2.45
       quasar: 2.10.2
       vite: 4.0.0_sass@1.56.2
       vue: 3.2.45
@@ -2238,11 +2238,11 @@ packages:
       eslint-visitor-keys: 3.3.0
     dev: true
 
-  /@vitejs/plugin-vue/3.2.0_vite@4.0.0+vue@3.2.45:
-    resolution: {integrity: sha512-E0tnaL4fr+qkdCNxJ+Xd0yM31UwMkQje76fsDVBBUCoGOUPexu2VDUYHL8P4CwV+zMvWw6nlRw19OnRKmYAJpw==}
+  /@vitejs/plugin-vue/4.0.0_vite@4.0.0+vue@3.2.45:
+    resolution: {integrity: sha512-e0X4jErIxAB5oLtDqbHvHpJe/uWNkdpYV83AOG2xo2tEVSzCzewgJMtREZM30wXnM5ls90hxiOtAuVU6H5JgbA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
-      vite: ^3.0.0
+      vite: ^4.0.0
       vue: ^3.2.25
     dependencies:
       vite: 4.0.0_sass@1.56.2
