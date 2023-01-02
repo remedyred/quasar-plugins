@@ -15,7 +15,7 @@ importers:
       eslint: ^8.19.0
       eslint-plugin-beautiful-sort: ^2.0.3
       eslint-plugin-json: ^3.1.0
-      eslint-plugin-json-files: ^1.3.0
+      eslint-plugin-json-files: ^2.0.0
       eslint-plugin-sort-class-members: ^1.14.1
       eslint-plugin-vue: ^9.1.1
       jest: 28.1.3
@@ -36,7 +36,7 @@ importers:
       eslint: 8.31.0
       eslint-plugin-beautiful-sort: 2.0.4
       eslint-plugin-json: 3.1.0
-      eslint-plugin-json-files: 1.5.0_eslint@8.31.0
+      eslint-plugin-json-files: 2.1.0_eslint@8.31.0
       eslint-plugin-sort-class-members: 1.16.0_eslint@8.31.0
       eslint-plugin-vue: 9.8.0_eslint@8.31.0
       jest: 28.1.3
@@ -3505,9 +3505,9 @@ packages:
       sort-package-json: 1.57.0
     dev: true
 
-  /eslint-plugin-json-files/1.5.0_eslint@8.31.0:
-    resolution: {integrity: sha512-h3pExRzIyyMIoZ8ti03aH+w7vZrv1goiMiSFJ1Yr/ySxD28s9r7pyP5/o6xFipeb944NSoiJH8vdTu+GpEY6tw==}
-    engines: {node: '>=12.13'}
+  /eslint-plugin-json-files/2.1.0_eslint@8.31.0:
+    resolution: {integrity: sha512-62dP9I3kYdSYS7LoXUWMjUQm1/Dsd9PGaJJSkCgRgi2BRlEZroRq4Ix3PryqtNLnkw4rJJumKy/jF0kygVsOrw==}
+    engines: {node: '>=14.15'}
     peerDependencies:
       eslint: '>=5'
     dependencies:
