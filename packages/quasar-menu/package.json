@@ -35,7 +35,7 @@
 		"@vitejs/plugin-vue": "4.0.0",
 		"sass": "1.54.5",
 		"shx": "0.3.4",
-		"vite": "4.1.1",
+		"vite": "4.1.4",
 		"vite-plugin-dts": "^1.4.1"
 	}
 }
