@@ -64,7 +64,7 @@ importers:
       shx: ^0.3.4
       typescript: ^4.7.4
       vite: 4.1.4
-      vite-plugin-dts: ^1.4.1
+      vite-plugin-dts: ^2.0.0
       vue: ^3.2.37
       vue-currency-input: ^3.0.0
       vue-router: ^4.0.16
@@ -89,7 +89,7 @@ importers:
       shx: 0.3.4
       typescript: 4.9.5
       vite: 4.1.4_sass@1.54.5
-      vite-plugin-dts: 1.7.3_rollup@3.17.1+vite@4.1.4
+      vite-plugin-dts: 2.0.2_rollup@3.17.1+vite@4.1.4
 
   packages/quasar-forms:
     specifiers:
@@ -102,7 +102,7 @@ importers:
       sass: 1.54.5
       shx: ^0.3.4
       vite: 4.1.4
-      vite-plugin-dts: ^1.4.1
+      vite-plugin-dts: ^2.0.0
       vue: ^3.2.37
       vue-router: ^4.0.16
     dependencies:
@@ -118,7 +118,7 @@ importers:
       sass: 1.54.5
       shx: 0.3.4
       vite: 4.1.4_sass@1.54.5
-      vite-plugin-dts: 1.7.3_vite@4.1.4
+      vite-plugin-dts: 2.0.2_vite@4.1.4
 
   packages/quasar-menu:
     specifiers:
@@ -131,7 +131,7 @@ importers:
       sass: 1.54.5
       shx: 0.3.4
       vite: 4.1.4
-      vite-plugin-dts: ^1.4.1
+      vite-plugin-dts: ^2.0.0
       vue: ^3.2.37
       vue-router: ^4.0.16
     dependencies:
@@ -147,7 +147,7 @@ importers:
       sass: 1.54.5
       shx: 0.3.4
       vite: 4.1.4_sass@1.54.5
-      vite-plugin-dts: 1.7.3_vite@4.1.4
+      vite-plugin-dts: 2.0.2_vite@4.1.4
 
 packages:
 
@@ -5446,6 +5446,13 @@ packages:
     dependencies:
       sourcemap-codec: 1.4.8
 
+  /magic-string/0.29.0:
+    resolution: {integrity: sha512-WcfidHrDjMY+eLjlU+8OvwREqHwpgCeKVBUpQ3OhYYuvfaYCUgcbuBzappNzZvg/v8onU3oQj+BYpkOJe9Iw4Q==}
+    engines: {node: '>=12'}
+    dependencies:
+      '@jridgewell/sourcemap-codec': 1.4.14
+    dev: true
+
   /make-dir/2.1.0:
     resolution: {integrity: sha512-LS9X+dc8KLxXCb8dni79fLIIUA5VyZoyjSMCwTluaXA0o27cCK0bhXkpgw+sTXVpPy/lSO57ilRixqk0vDmtRA==}
     engines: {node: '>=6'}
@@ -7429,12 +7436,13 @@ packages:
     engines: {node: '>= 0.10'}
     dev: true
 
-  /vite-plugin-dts/1.7.3_rollup@3.17.1+vite@4.1.4:
-    resolution: {integrity: sha512-u3t45p6fTbzUPMkwYe0ESwuUeiRMlwdPfD3dRyDKUwLe2WmEYcFyVp2o9/ke2EMrM51lQcmNWdV9eLcgjD1/ng==}
+  /vite-plugin-dts/2.0.2_rollup@3.17.1+vite@4.1.4:
+    resolution: {integrity: sha512-i3HBlrdqE2FQxQqrNwFj9P2ei/I7lt/d3Q8NOE1JCz/gNYhNf/oUeIJamIdWQUNQGhUd/Y6mtpm3kOYPw1gz8Q==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       vite: '>=2.9.0'
     dependencies:
+      '@babel/parser': 7.20.15
       '@microsoft/api-extractor': 7.34.4
       '@rollup/pluginutils': 5.0.2_rollup@3.17.1
       '@rushstack/node-core-library': 3.55.2
@@ -7442,6 +7450,7 @@ packages:
       fast-glob: 3.2.12
       fs-extra: 10.1.0
       kolorist: 1.7.0
+      magic-string: 0.29.0
       ts-morph: 17.0.1
       vite: 4.1.4_sass@1.54.5
     transitivePeerDependencies:
@@ -7450,12 +7459,13 @@ packages:
       - supports-color
     dev: true
 
-  /vite-plugin-dts/1.7.3_vite@4.1.4:
-    resolution: {integrity: sha512-u3t45p6fTbzUPMkwYe0ESwuUeiRMlwdPfD3dRyDKUwLe2WmEYcFyVp2o9/ke2EMrM51lQcmNWdV9eLcgjD1/ng==}
+  /vite-plugin-dts/2.0.2_vite@4.1.4:
+    resolution: {integrity: sha512-i3HBlrdqE2FQxQqrNwFj9P2ei/I7lt/d3Q8NOE1JCz/gNYhNf/oUeIJamIdWQUNQGhUd/Y6mtpm3kOYPw1gz8Q==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       vite: '>=2.9.0'
     dependencies:
+      '@babel/parser': 7.20.15
       '@microsoft/api-extractor': 7.34.4
       '@rollup/pluginutils': 5.0.2
       '@rushstack/node-core-library': 3.55.2
@@ -7463,6 +7473,7 @@ packages:
       fast-glob: 3.2.12
       fs-extra: 10.1.0
       kolorist: 1.7.0
+      magic-string: 0.29.0
       ts-morph: 17.0.1
       vite: 4.1.4_sass@1.54.5
     transitivePeerDependencies:
